@@ -1,0 +1,29 @@
+body {
+	max-width: 600px;
+	font-family: sans-serif;
+}
+
+@media (min-width:641px) {
+	body {
+		margin-left:200px;
+	}
+
+	#top {
+		font-size:2em;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.note {
+background-color:lightyellow;
+padding:1em;
+}
+
+#top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
